@@ -1,0 +1,72 @@
+.profileContainer {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.profileContainer .profileInfoSection {
+    margin-left: 5%;
+    margin-top: 2.5%;
+    height: 120%;
+    width: 30%;
+    background:  rgba(168,162,158, 0.15);
+    border-radius: 10px 40px;
+} 
+
+.profileContainer .profileInfoSection img {
+    height: 20vh;
+    width: 80%;
+    background-color: rgba(168,162,158, 1);
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: -5%;
+    border-radius: 40px 10px;
+}
+
+.profileContainer .profileInfoSection .profileName {
+    margin-top: 4%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    color: black;
+}
+
+.profileContainer .profileInfoSection button {
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.profileContainer .profileInfoSection .profileName h2 {
+    translate: -15px -10px;
+}
+
+.profileContainer .profileInfoSection form {
+    margin-left: 10%;
+}
+
+.profileContainer .profileInfoSection .profile textarea {
+    margin-top: 15%;
+    min-height: 10vh;
+    background-color: transparent;
+    min-width: 80%;
+    margin-left: 10%;
+}
+
+.profileContainer .profileStats {
+    margin-left: 5%;
+    width: 30%;
+    padding: 5%;
+}
+
+.profileContainer .profileStats .card {
+    height: 13vh;
+    box-shadow: 3px 3px 1px 1px rgba(129,36,37,.15);
+    background: rgba(168,162,158, 0.05);
+    border-radius: 10px 40px;
+}
+
+.profileContainer .profileStats .card h2 {
+    translate: 6vw 5vh;
+}

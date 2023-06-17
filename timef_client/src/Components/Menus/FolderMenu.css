@@ -1,0 +1,112 @@
+.shortMenu{
+    max-width: 20%;
+    transform: scale(65%)
+}
+
+.folderMenu {
+    display: flex;
+    position: relative;
+    min-height: 1.5em;
+    align-items: center;
+    border-radius: 10px;
+    outline: none;
+    width: 100%;
+    padding: 0.5rem;
+    background: rgba(168,162,158, 0.25);
+    z-index: 10;
+}
+
+.folderMenu:focus {
+    background: rgba(168,162,158, 0.65);
+}
+
+.selectedFolders {
+    flex-grow: 1;
+}
+
+.folderMenu .selectedFolders button {
+    transform: translateY(0px);
+    max-height: 30px;
+    margin: 0 5px;
+}
+
+.folderMenu button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: rgba(129,36,37,.55);
+    height: 2.5em;
+    padding: 0 0.75em;
+    translate: 0 0px;
+    z-index: 0;
+    color: #111827;
+}
+
+.folderMenu .currentFolder {
+    transform: scaleX(10%);
+}
+
+.folderMenu button:hover,
+.folderMenu button:focus {
+    background-color: rgba(129,36,37,.75);
+}
+
+.folderMenu .divider {
+    align-self: stretch;
+    background-color: rgba(129,36,37,.75);
+    margin: 0 5px;
+    width: 3px;
+    z-index: 1;
+}
+
+.shortMenu .show {
+    min-width: 250%;
+    scale: 135%;
+}
+
+.folderMenu .show {
+    height: 5em;
+}
+
+.folderMenu .folders {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 15em;
+    left: 20%;
+    width: 80%;
+    z-index: 10;
+    background-color: white;
+    top: calc(100% + 15px);
+    display: none
+}
+
+.folderMenu .show{
+    display: block;
+    background-color: rgb(228, 225, 225, 1);
+    border-radius: 0.25em;
+}
+
+.folderMenu .folders li{
+    margin: 15px 0;
+    padding: 0.25em 0.25em;
+}
+
+.folderMenu .folders .folder {
+    padding: .25em 0.5em;
+}
+
+.folderMenu .folders li {
+    margin: 5px 0;
+}
+
+.folderMenu .selected {
+    background:rgba(129,36,37,.75)
+}
+
+.folderMenu .highlighted {
+    background:rgba(129,36,37,.35)
+}

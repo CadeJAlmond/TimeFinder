@@ -1,0 +1,89 @@
+.foldersContainer{
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    overflow: hidden;
+}
+
+/*** User Folders Container ***/
+
+.foldersContainer .folderNavigation {
+    margin-left: 5%;
+    width: 30%;
+}
+
+.folderNavigation .folderForm form h1 {
+    margin-bottom: 5px;
+}
+
+.folderNavigation .folderForm form button { 
+    margin-bottom: 15px;
+}
+
+.foldersContainer .folderDisplay .folderEvents {
+    margin-top: 3px;
+    height: 37.5vh;
+}
+
+.folderNavigation .folders {
+    height: 70vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5vh;
+}
+
+.folders .folderCard {
+    padding-left: 15px;
+    margin-left: 15px;
+    border-radius: 15px;
+    height: 13vh;
+    width: 65%;
+    text-align: center;
+    justify-content: center;
+}
+
+.folders .folderCard h2 {
+    translate: -0.5vw 2.5vh;
+}
+
+.folderDisplay .folderEvents .events {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.folderDisplay .eventCard {
+    padding-left: 15px;
+    margin-left: 15px;
+    border-radius: 15px;
+    width: 65%;
+    min-height: 115px;
+    max-height: 115px;
+    text-align: center;
+}
+
+.folderDisplay .folderNotes{
+    height: 45vh;
+}
+
+.folderDisplay .folderNotes .notes {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.folderDisplay .noteCard {
+    padding-left: 5px;
+    margin-left: 15px;
+    border-radius: 15px;
+    width: 90%;
+    min-height: 85px;
+    max-height: 85px;
+    text-align: center;
+}
+
+.folderDisplay .noteCard h4 {
+    width: 90%;
+}

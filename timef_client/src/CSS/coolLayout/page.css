@@ -1,0 +1,130 @@
+body {
+    background: #e2e8f0;
+}
+
+.homePageContainer {
+    width: 60vw;
+    margin-left: 10vw;
+}
+
+.homePageContainer .homePost {
+    display: flex;
+    margin-top: 85px;
+}
+
+.homePageContainer .homePost .content {
+    background-color: white;
+    max-height: 40vh;
+    padding: 0 35px;
+    width: 20vw;
+    transform: translateY(50px);
+}
+
+
+.homePageContainer .homePost img {
+    position: relative;
+    width: 35vw;
+    min-height: 57.5vh;
+    outline: 10px #7dd3fc solid; 
+    outline-offset: 5px;
+    transform: translateX(-5vw);
+    z-index: -6;
+}
+
+.homePageContainer .content p{
+    margin-left: 20px;
+    font-size: 19px;
+}
+
+.authFormContainer {
+    display: flex;
+    margin-top: 20vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10vw;
+    width: 60vw;
+    z-index: 5;
+}
+
+.authFormContainer form {
+    width: 20vw;
+    background-color: white;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 15px;
+}
+
+.authFormContainer form input {
+    transform: translateY(-15px);
+    border: none;
+    border-bottom: 2px solid darkgray;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    background-color: #0284c7;
+    padding: 12px; 
+    border-radius: 15px;
+    font-weight: 500;
+}
+
+.createPostsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    margin-left: 12.5vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.createPostsContainer form {
+    display: grid;
+    width: 60%;
+    row-gap: 5px;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: rgba(187,202,212, 0.65);
+    padding: 25px;
+    border-radius: 10px 40px;
+}
+
+.createPostsContainer form input {
+    margin-top: 25px;
+}
+
+.createPostsContainer form .columnRow {
+    display: grid;
+    column-gap: 15px;
+    width: 60%;
+    margin-left: 5%;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+.createPostsContainer form .columnRow input {
+    height: 25px;
+    transform: translateY(15px);
+    border: none;
+    border-radius: 4px;
+    border-bottom: 2px solid darkgray;
+}
+
+.createPostsContainer form .instructions {
+    height: 205px;
+    border-radius: 4px;
+    transform: translateY(15px);
+    border: none;
+    border-bottom: 2px solid darkgray;
+    margin-bottom: -5px;
+}
+
+.createPostsContainer form button {
+    margin-top: 20px;
+    padding-top: -20px;
+    width: 160px;
+    margin-left: calc(50% - 80px);
+}

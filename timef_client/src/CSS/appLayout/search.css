@@ -1,0 +1,58 @@
+.usersContainer{
+    width: 90%;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    display: flex;
+}
+
+.usersContainer .searchContainer {
+    width: 55%;
+}
+
+.usersContainer .userDisplayOptions {
+    display: flex;
+    height: 30px;
+}
+
+.usersContainer input {
+    margin-bottom: 10px;
+}
+
+.usersContainer .userDisplayOptions .card {
+    text-align: center;
+    justify-content: center;
+    background-color: gray;
+    border-radius: 15px;
+    width: 70px;
+    margin-right: 10px;
+}
+
+.usersContainer .userDisplayOptions .card  h4 {
+    margin-top: 5px;
+}
+
+.usersContainer .friendProfile {
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc(70px + 2vh);
+    margin-top: 15px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    row-gap: 10px;
+    max-height: 60%;
+    min-height: 60%;
+}
+
+.usersContainer .friendProfile .profile {
+    text-align: left;
+    justify-content: left;
+    background-color: gray;
+    border-radius: 15px;
+    padding: 15px 25px;
+    max-height: calc(70px + 2vh);
+    max-width: calc(265px + 6%);
+}
+
+.usersContainer .friendProfile .profile h3 {
+    margin-top: -10px;
+}

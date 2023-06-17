@@ -1,0 +1,184 @@
+/*** Basic Page Styling ***/
+
+.notesContainer {
+    width: 100%;
+    min-height: 90%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3px;
+}
+
+.notesBackgroundWord {
+  position: absolute;
+  letter-spacing: 0.65rem;
+  font-size: 8rem;
+  opacity: 0.2;
+  top: -4.5%;
+  left: 65%;
+  z-index: -1;
+}
+
+/*** Notes Form Section ***/
+
+.notesFormContainer {
+  height: 100%;
+  padding-left: 3.5%;
+  width: 25.5%;
+}
+  
+.notesFormContainer button {
+  max-height: 40px;
+  margin-top: calc(20% + 10px);
+  width: 65%;
+  margin-bottom: -5px;
+}
+  
+.notesFormContainer form{
+  max-width: 55%;
+  height: 10%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+  
+.notesFormContainer input {
+  height: 40%;
+  width: 150%;
+  border-radius: 5px;
+  margin-top: -40px;
+}
+
+.notesFormContainer h3 {
+  margin-bottom: 10px;
+}
+
+.notesFormContainer .noteContentField{
+  transform: translateY(35px);
+  min-height: 150%;
+  width: 150%;
+  border-radius: 5px;
+}
+
+/*** Notes Display Section ***/
+
+.currentNoteInfo {
+  width: 35vw;
+  height: 100%;
+  padding: 0;
+  margin: 0
+}
+  
+.currentNoteInfo .noteContentContainer{
+  margin-left: 5.5%;
+  max-width: 80%;
+}
+
+.currentNoteInfo .noteContentContainer input {
+  margin-top: calc(10% + 10px);
+  border: none;
+  background: transparent;
+  margin-bottom: 3%;
+  height: 20px;
+  min-width: 75%;
+  resize: none;
+  font-size: inherit;
+  font-family: inherit;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.currentNoteInfo .noteContentContainer textarea {
+  width: 101%;
+  min-height: 30vh;
+  max-height: 50%;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border: none;
+  background: transparent;
+}
+
+.currentNoteInfo .noteContentContainer .updateBtn {
+  width: 30%;
+}
+
+.currentNoteInfo .noteContentContainer .folderContainer {
+  margin-top: -35px;
+}
+
+.currentNoteInfo .noteContentContainer button h5 {
+  transform: translateY(-21px);
+}
+
+/*** Notes SideBar Section ***/
+
+.notesNavigationContainer {
+  width: 25%;
+  padding-right: 7.5%;
+  height: 100%;
+}
+
+.notesNavigationContainer h1{
+  margin-top: calc(10% + 10px);
+  margin-bottom: -10px;
+}
+
+.notesNavigationContainer .filters {
+  display: flex;
+}
+
+.notesNavigationContainer .openBtn,  .notesNavigationContainer .closeBtn{
+  transform: scale(80%)
+}
+
+.notesNavigationContainer .filters input { 
+  border: none;
+  background: transparent;
+  margin-bottom: 3%;
+  height: 10px;
+  min-width: 35%;
+  resize: none;
+  font-size: inherit;
+  font-family: inherit;
+  padding: 10px;
+  font-size: 0.75rem;
+}
+
+.notesNavigationContainer .filters .folderMenu {
+  scale: 80%;
+  margin-top: 15px;
+}
+
+.notesNavigationContainer .noteCardContainer{
+  overflow-y: auto;
+  overflow-x: hidden;
+  text-overflow: clip;
+  height: 72.5%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.5%;
+  row-gap: 10px;
+  width: 110%;
+}
+  
+.notesContainer .note {
+  padding-left: 15px;
+  margin-left: 15px;
+  border-radius: 15px;
+  width: 85%;
+  min-height: 115px;
+  max-height: 115px;
+}
+
+.notesContainer .note h2 {
+  margin-bottom: 5px;
+  margin-top: 12px;
+}
+  
+.notesContainer .filters {
+  margin-top: -15px;
+}
+
+.notesContainer .notesNavigationContainer input {
+  transform: translateY(27px);
+  width: 50%;
+  height: 90%;
+}

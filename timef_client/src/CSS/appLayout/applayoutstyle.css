@@ -1,0 +1,113 @@
+.appContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+  
+.sideBar {
+    width: 20%;
+    height: 100vh;
+}
+
+.sideBar.CLOSE {
+    width: 3.5%;
+}
+
+.sideBar.CLOSE +.homeContainer {
+    width: 99%;
+}
+
+.sideBar.CLOSE +.homeContainer .homePageContainer {
+    width: 90%;
+    translate: 5% 0;
+}
+
+.sideBar.CLOSE +.homeContainer .calenBackgroundWord {
+    translate: 0 -45%;
+}
+  
+.homeContainer {
+    overflow: hidden;
+    width: 100%;
+    min-height: 200%;
+    display: flex;
+    flex-direction: column;
+}
+  
+.sideBar.CLOSE .content {
+    margin-left: 1vw;
+}
+
+.sideBar .content {
+    margin-top: 2.5vh;
+    margin-left: 2.5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+    list-style: none;
+}
+
+.sideBar .content input {
+    margin-bottom: 8px;
+}
+
+.sideBar .content button {
+    margin-bottom: 8px;
+    width: 40%;
+}
+
+.content input {
+    width: 70%;
+}
+
+.content button {
+    width: 70%;
+}
+
+.sideBar .colorTheme {
+    margin-top: -25%;
+}
+
+.sideBar .colorTheme button {
+    max-width: 20%;
+    margin-right: 4%;
+    z-index: 10
+}
+
+.sideBar .colorTheme  .WARM-01 {
+    background: linear-gradient(290deg, #f3644a, #C1000F);
+}
+
+.sideBar .colorTheme  .COOL-01 {
+    background: linear-gradient(120deg, #3E74A8, #CDE7F4);
+}
+
+.sideBar .buttonIcons {
+    padding: 0;
+    margin-right: 3.5vw;
+    display: flex;
+    gap: 1rem;
+}
+
+.sideBar .content p {
+    width: 85%;
+}
+
+.sideBar.CLOSE span svg {
+    translate: 0
+} 
+
+.sideBar span {
+    width: 85%;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.sideBar span svg {
+    translate: 3vw;
+}
+
+.sideBar .content a {
+    text-decoration: none;
+}

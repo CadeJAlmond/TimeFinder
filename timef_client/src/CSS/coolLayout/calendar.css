@@ -1,0 +1,90 @@
+.calendarContainer{
+    height: 60vh;
+    width: 100%;
+}
+
+.calendarNavigation .displayContent h1 {
+    transform: translateY(20px);
+    min-width: 200px;
+}
+
+.calendarContainer .calendarNavigation .displayContent {
+    margin-top: 3.5%;
+    margin-bottom: 3%;
+    display: flex;
+}
+
+.calendarNavigation .displayContent .calendarNavButtons {
+    min-width: 30%;
+    margin-left: calc(73.5% - 200px);
+    margin-top: 3.5%;
+}
+
+.calendarNavigation .displayContent button {
+    min-width: 40%;
+    margin-left: 15px;
+}
+
+.calenBackgroundWord {
+    position: absolute;
+    letter-spacing: 1.15rem;
+    font-size: 8rem;
+    opacity: 0.2;
+    z-index: -1;
+    top: 1%;
+}
+
+.calendarDisplay {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.event {
+    max-height: 10vh;
+    max-width: 100%; 
+}
+
+.paddingDay {
+    background: #e2e8f0;
+}
+
+.nonEventDay {
+    background: rgba(241,245,249, 0.95);
+}
+
+.eventDay {
+    box-shadow: 3px 3px 1px 1px rgba(125,211,252, .125);
+    background: white;
+    height: 90%;
+}
+
+.eventDay .eventName {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 80px;
+    margin-bottom: -80px;
+}
+
+.eventDay h3 {
+    max-height: 0;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.eventDay h3 div {
+    line-height: 20px;
+    transform: scale(20px);
+    margin-left: -12px;
+    margin-bottom: -16px;
+    width: 5px;
+    height: 16px;
+}
+
+.eventDay p, .nonEventDay p{
+    transform: translateY(-4px);
+    margin-left: 10px;
+}

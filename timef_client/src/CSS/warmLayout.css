@@ -1,0 +1,124 @@
+.WARM_1 .navigationBar  {
+    background: #12141b;
+}
+
+.WARM_1 .homePageContainer .homePost .content {
+    background-color:  #d8d7d7;
+}
+
+.WARM_1 .homePageContainer .homePost img{
+    outline: 10px #dc2626 solid; 
+}
+
+.WARM_1 .authFormContainerr-WARM_1 form {
+    background-color: white;
+}
+
+.WARM_1 button {
+    background: linear-gradient(290deg, #f3644a, #C1000F);
+}
+
+.WARM_1 .sideBar {
+    background: #08090c;
+}
+
+.WARM_1 .sideBar h3 {
+    color: #d4d7db;
+}
+
+.WARM_1 .sideBar .content p {
+    color: #d4d7db;
+}
+
+.WARM_1 .sideBar span {
+    color: #812425
+}
+
+.WARM_1 .paddingDay {
+    background: #F6F5F5;
+}
+
+.WARM_1 .nonEventDay {
+    background: rgba(168,162,158, 0.075);
+}
+
+.WARM_1 .eventDay {
+    box-shadow: 3px 3px 1px 1px rgba(129,36,37,.15);
+    background: rgba(168,162,158, 0.01);
+}
+
+.WARM_1 .eventsPage .col1 .card {
+    background: rgba(168,162,158, 0.15);
+}
+
+.WARM_1 .eventsPage .col1 .blue-0 {
+    box-shadow: 3px 3px 5px 1px rgba(129,36,37,.35)
+}
+
+.WARM_1 .eventsPage .col1 .blue-1 {
+    box-shadow: 3px 3px 5px 1px rgba(129,36,37,.25)
+}
+
+.WARM_1 .eventsPage .col1 .blue-2 {
+    box-shadow: 3px 3px 5px 1px rgba(129,36,37,.15)
+}
+
+.WARM_1 .eventsPage .col1 .blue-3 {
+    box-shadow: 3px 3px 5px 1px rgba(129,36,37,.07)
+}
+
+.WARM_1 .eventsPage .col1 .blue-4 {
+    box-shadow: 3px 3px 5px 1px rgba(129,36,37,.02)
+}
+
+.WARM_1 .eventsPage .card1 {
+    background: rgba(168,162,158, 0.15);
+}
+
+.WARM_1 .folders .folderCard {
+    background:rgba(168,162,158, 0.15);
+}
+
+.WARM_1 .folderDisplay .eventCard {
+    background:rgba(168,162,158, 0.15);
+}
+
+.WARM_1 .folderDisplay .noteCard {
+    background: rgba(168,162,158, 0.15);
+}
+
+.WARM_1 .navigationBar span {
+    color: #7f1d1d
+}
+
+.WARM_1 nav::after{
+    background: #b91c1c;
+}
+
+.WARM_1 .profileName {
+    color: #cedbeb;
+}
+
+.WARM_1 .writeBtn li {
+    color: #bdc9d8;
+}
+
+.WARM_1 .notesFormContainer {
+  border-right: 3px solid rgba(168,162,158, 0.45);
+}
+
+.WARM_1 .currentNoteInfo .noteContentContainer input {
+  border-bottom: solid 2px rgba(168,162,158, 0.65);
+}
+
+.WARM_1 .notesNavigationContainer .filters input { 
+  border-bottom: solid 2px rgba(168,162,158, 0.65);
+}
+
+.WARM_1 .notesContainer .note {
+  background:  rgba(168,162,158, 0.15);
+}
+
+.WARM_1 .notesContainer .active {
+  background:rgba(129,36,37,.50)
+}

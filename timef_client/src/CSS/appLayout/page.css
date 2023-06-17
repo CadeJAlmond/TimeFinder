@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0
+}
+
+.homePageContainer {
+    width: 100%;
+    margin-left: 5%;
+    max-height: 50vh;
+    min-height: 50vh;
+}
+
+.homePageContainer .homePost {
+    display: flex;
+    margin-top: 85px;
+}
+
+.homePageContainer .homePost .content {
+    max-height: 40vh;
+    padding: 0 35px;
+    width: 20vw;
+    transform: translateY(50px);
+}
+
+.homePageContainer .homePost img {
+    position: relative;
+    width: 45vw;
+    min-height: 57.5vh;
+    outline-offset: 5px;
+    transform: translateX(-5vw);
+    z-index: -6;
+}
+
+.homePageContainer .content p{
+    margin-left: 30px;
+    font-size: 19px;
+}
+
+.homePageContainer .content button {
+    margin-top: 10px;
+}
+
+.authFormContainer {
+    display: flex;
+    margin-top: 20vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10vw;
+    width: 60vw;
+    z-index: 5;
+}
+
+.authFormContainer form {
+    width: 20vw;
+    background-color: white;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 15px;
+}
+
+.authFormContainer form input {
+    transform: translateY(-15px);
+    border: none;
+    border-bottom: 2px solid darkgray;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding: 12px; 
+    border-radius: 15px;
+    font-weight: 500;
+}
+
+button svg {
+    margin: 0 8px;
+    transform: scale(120%)
+}

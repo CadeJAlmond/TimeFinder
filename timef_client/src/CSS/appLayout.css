@@ -1,0 +1,12 @@
+/***  ALL STYLES ARE USED ONLY IN THE INDEX.JS FILE !!! ***/
+
+@import './appLayout/applayoutstyle.css';
+@import './appLayout/navigation.css';
+@import './appLayout/calendar.css';
+@import './appLayout/profile.css';
+@import './appLayout/search.css';
+@import './appLayout/folder.css';
+@import './appLayout/events.css';
+@import './appLayout/modals.css';
+@import './appLayout/notes.css';
+@import './appLayout/page.css'

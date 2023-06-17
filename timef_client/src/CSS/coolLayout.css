@@ -1,0 +1,105 @@
+.COOL_1 nav{
+    background: #292524;
+}
+
+.COOL_1 nav::after{
+    background: #0284c7;
+}
+
+.COOL_1 button {
+    background: linear-gradient(120deg, #3E74A8, #CDE7F4);
+}
+
+.COOL_1 .homePageContainer .homePost .content {
+    background-color: white;
+}
+
+.COOL_1 .homePageContainer .homePost img {
+    outline: 10px #7dd3fc solid; 
+}
+
+.COOL_1 .authFormContainer form input {
+    border-bottom: 2px solid darkgray;
+}
+
+.COOL_1 .authFormContainer form {
+    background-color: white;
+}
+
+.COOL_1 .sideBar {
+    background: #1c1917;
+}
+  
+.COOL_1.sideBar .content p {
+    color: #b5c2d3;
+}
+
+.COOL_1 .sideBar span {
+    color: #8090a7;
+}
+
+.COOL_1 .profileName{
+    color: #cedbeb;
+}
+
+.COOL_1 .paddingDay {
+    background: #e2e8f0;
+}
+
+.COOL_1 .nonEventDay {
+    background: rgba(241,245,249, 0.95);
+}
+
+.COOL_1 .eventDay {
+    box-shadow: 3px 3px 1px 1px rgba(125,211,252, .125);
+    background: white;
+    height: 90%;
+}
+
+.COOL_1 .eventsPage .col1 .card {
+    background: #cbd5e1
+}
+
+.COOL_1 .eventsPage .col1 .blue-0 {
+    box-shadow: 3px 3px 5px 1px rgba(56,189,248, .25)
+}
+
+.COOL_1 .eventsPage .col1 .blue-1 {
+    box-shadow: 3px 3px 5px 1px rgba(125,211,252, .25)
+}
+
+.COOL_1 .eventsPage .col1 .blue-2 {
+    box-shadow: 3px 3px 5px 1px rgba(186, 230, 253, .20)
+}
+
+.COOL_1 .eventsPage .col1 .blue-3 {
+    box-shadow: 3px 3px 5px 1px rgba(186, 230, 253, .15)
+}
+
+.COOL_1 .eventsPage .col1 .blue-4 {
+    box-shadow: 3px 3px 5px 1px rgba(186, 230, 253, .10)
+}
+
+.COOL_1 .eventsPage .div2 .previewCard {
+    background: #242222;
+}
+
+.COOL_1 .eventsPage .card1 {
+    background: rgba(148, 163, 184, 0.15);
+}
+
+.COOL_1 .eventModal {
+    background: white;
+}
+
+.COOL_1 .notesFormContainer {
+    border-right: 3px solid rgba(168,162,158, 0.45);
+}
+
+.COOL_1 .notesContainer .note {
+    background:  rgba(241,245,249, 0.95);
+}
+
+.COOL_1 .notesContainer .active {
+    background: rgba(12,74,110,.30);
+}
